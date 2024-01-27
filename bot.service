@@ -1,0 +1,13 @@
+[Unit]
+Description=Telegram bot service
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=<path_to_bot_directory>
+ExecStart=poetry run python main.py
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

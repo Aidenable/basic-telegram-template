@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "basic-telegram-template"
+version = "1.0.0"
+description = "The bot's basic AIOgram (v2.22) template."
+authors = ["Aiden-The-Dev"]
+license = "GPLv3"
+readme = "README.md"
+repository="https://github.com/Aiden-The-Dev/basic-telegram-template"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+aiogram = "2.22"
+python-dotenv = "^1.0.1"
+pymongo = "^4.6.1"
+pydantic = "^2.5.3"
+dnspython = "^2.5.0"
+motor = "^3.3.2"
+APScheduler = "^3.10.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
